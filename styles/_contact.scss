@@ -1,0 +1,93 @@
+.section-1-contact {
+  margin-top: 107px;
+  .content {
+    padding: 0 105px;
+    h1 {
+      font-size: 41.25px;
+      color: #00c1d4;
+      line-height: 75px;
+    }
+    p {
+      font-size: 22.5px;
+      line-height: 75px;
+      margin-top: 50px;
+    }
+    .btn {
+      color: white;
+      font-weight: bold;
+      font-size: 22.5px;
+      border-radius: 32px;
+      padding: 25px 0;
+      width: 316px;
+      margin-left: 10px;
+      margin-top: 40px;
+    }
+    .btn1 {
+      background-color: #00c1d4;
+    }
+    .btn2 {
+      background-color: #253163;
+    }
+  }
+}
+.section-2-contact {
+  position: relative;
+  margin-bottom: 305px;
+  .form {
+    position: absolute;
+    width: 867px;
+    margin-left: 65px;
+    .name,
+    .phone,
+    .email,
+    textarea {
+      border-radius: 20px;
+      padding: 35px 35px 35px;
+      border: 0.73996px solid #707070;
+      font-weight: bold;
+      font-size: 22.1988px;
+      line-height: 26px;
+    }
+    .name,
+    .phone,
+    .email,
+    textarea:focus {
+      outline: none;
+    }
+    .name,
+    .phone {
+      width: 49%;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+    .email,
+    textarea {
+      margin-top: 20px;
+      width: 100%;
+    }
+    textarea {
+      resize: none;
+      height: 355px;
+    }
+    textarea::placeholder {
+      padding: 5px;
+      align-items: center;
+    }
+  }
+  .btn {
+    color: white;
+    background-color: #00c1d4;
+    font-weight: bold;
+    font-size: 22.5px;
+    border-radius: 32px;
+    padding: 25px 0;
+    width: 316px;
+    margin-top: 40px;
+  }
+}

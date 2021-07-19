@@ -186,6 +186,7 @@ footer span {
 
 .section-5-home {
   position: relative;
+  margin-bottom: 130px;
 }
 
 .section-5-home img {
@@ -210,12 +211,14 @@ footer span {
 }
 
 .section-5-home div .btn {
+  margin-top: 30px;
   color: white;
   font-weight: bold;
   font-size: 22.5px;
-  background-color: #00C1D4;
+  background-color: #00c1d4;
   border-radius: 32px;
-  padding: 25px 103px 25px 103px;
+  padding: 25px 0;
+  width: 316px;
 }
 
 .section-1-internal,
@@ -338,8 +341,140 @@ footer span {
   font-size: 22.5px;
   background-color: #00c1d4;
   border-radius: 32px;
-  padding: 25px 103px 25px 103px;
+  padding: 25px 0;
+  width: 316px;
   margin-left: 160px;
   margin-top: 85px;
+}
+
+.section-1-contact {
+  margin-top: 107px;
+}
+
+.section-1-contact .content {
+  padding: 0 105px;
+}
+
+.section-1-contact .content h1 {
+  font-size: 41.25px;
+  color: #00c1d4;
+  line-height: 75px;
+}
+
+.section-1-contact .content p {
+  font-size: 22.5px;
+  line-height: 75px;
+  margin-top: 50px;
+}
+
+.section-1-contact .content .btn {
+  color: white;
+  font-weight: bold;
+  font-size: 22.5px;
+  border-radius: 32px;
+  padding: 25px 0;
+  width: 316px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.section-1-contact .content .btn1 {
+  background-color: #00c1d4;
+}
+
+.section-1-contact .content .btn2 {
+  background-color: #253163;
+}
+
+.section-2-contact {
+  position: relative;
+  margin-bottom: 305px;
+}
+
+.section-2-contact .form {
+  position: absolute;
+  width: 867px;
+  margin-left: 65px;
+}
+
+.section-2-contact .form .name,
+.section-2-contact .form .phone,
+.section-2-contact .form .email,
+.section-2-contact .form textarea {
+  border-radius: 20px;
+  padding: 35px 35px 35px;
+  border: 0.73996px solid #707070;
+  font-weight: bold;
+  font-size: 22.1988px;
+  line-height: 26px;
+}
+
+.section-2-contact .form .name,
+.section-2-contact .form .phone,
+.section-2-contact .form .email,
+.section-2-contact .form textarea:focus {
+  outline: none;
+}
+
+.section-2-contact .form .name,
+.section-2-contact .form .phone {
+  width: 49%;
+}
+
+.section-2-contact .form input::-webkit-outer-spin-button,
+.section-2-contact .form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.section-2-contact .form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.section-2-contact .form .email,
+.section-2-contact .form textarea {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.section-2-contact .form textarea {
+  resize: none;
+  height: 355px;
+}
+
+.section-2-contact .form textarea::-webkit-input-placeholder {
+  padding: 5px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.section-2-contact .form textarea:-ms-input-placeholder {
+  padding: 5px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.section-2-contact .form textarea::-ms-input-placeholder {
+  padding: 5px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.section-2-contact .form textarea::placeholder {
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-2-contact .btn {
+  color: white;
+  background-color: #00c1d4;
+  font-weight: bold;
+  font-size: 22.5px;
+  border-radius: 32px;
+  padding: 25px 0;
+  width: 316px;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
