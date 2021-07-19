@@ -16,7 +16,7 @@
     <style></style>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a href="#"> <img src="./images/logo-header.png" alt="" /></a>
         <ul class="navbar-nav ml-auto">
@@ -34,6 +34,23 @@
           </li>
         </ul>
       </nav>
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 250 ||
+            document.documentElement.scrollTop > 250
+          ) {
+            document.getElementById("header").style.boxShadow = "0";
+          } else {
+            document.getElementById("header").style.boxShadow =
+              "0px 0px 8px 0px #ccc";
+          }
+        }
+      </script>
     </header>
     <section class="section-1-home d-flex">
       <img src="./images/index/index-img1.svg" alt="" />
@@ -109,25 +126,31 @@
     </section>
     <footer>
       <div class="row">
-        <div class="col align-items-center"><img src="./images/logo-footer.png" alt="" /></div>
+        <div class="col align-items-center">
+          <img src="./images/logo-footer.png" alt="" />
+        </div>
         <div class="col">
           <ul>
             <h1>Contact Us</h1>
-            <li><img src="./images/call-24px.svg" alt=""> 0433 887 331</li>
-            <li><img src="./images/email-24px.svg" alt=""> admin@limitlessdevs.com.au</li>
+            <li><img src="./images/call-24px.svg" alt="" /> 0433 887 331</li>
+            <li>
+              <img src="./images/email-24px.svg" alt="" />
+              admin@limitlessdevs.com.au
+            </li>
           </ul>
         </div>
         <div class="col">
           <ul>
             <h1>Follow Us</h1>
-            <li><img src="./images/facebook.svg" alt=""> Facebook</li>
-            <li><img src="./images/instagram.png" alt=""> Instagram</li>
-            <li><img src="./images/LinkedIn-Logo.png" alt=""> LinkedIn</li>
+            <li><img src="./images/facebook.svg" alt="" /> Facebook</li>
+            <li><img src="./images/instagram.png" alt="" /> Instagram</li>
+            <li><img src="./images/LinkedIn-Logo.png" alt="" /> LinkedIn</li>
           </ul>
         </div>
       </div>
       <span>
-        © 2021 Limitless Devs. All rights reserved. Developed by ZAM Technologies Inc.
+        © 2021 Limitless Devs. All rights reserved. Developed by ZAM
+        Technologies Inc.
       </span>
     </footer>
   </body>

@@ -16,7 +16,7 @@
     <style></style>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a href="#"> <img src="./images/logo-header.png" alt="" /></a>
         <ul class="navbar-nav ml-auto">
@@ -34,6 +34,23 @@
           </li>
         </ul>
       </nav>
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 250 ||
+            document.documentElement.scrollTop > 250
+          ) {
+            document.getElementById("header").style.boxShadow = "0";
+          } else {
+            document.getElementById("header").style.boxShadow =
+              "0px 0px 8px 0px #ccc";
+          }
+        }
+      </script>
     </header>
     <section class="section-1-internal d-flex">
       <img src="./images/internal/lines.svg" alt="" />
